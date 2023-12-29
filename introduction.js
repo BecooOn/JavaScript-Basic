@@ -311,5 +311,27 @@ And we can write many lines for comment*/
 
 // let humanReadDate = ${day} ${months[month]} ${year} ${days[dayNumber]} ${hour} ${minute} ${second};
 // console.log(humanReadDate);
-let a = 1 , b = '2', c = 3;
-console.log(a, b, c);
+// let a = 1 , b = '2', c = 3;
+// console.log(a, b, c);
+
+// let y = 0;
+// let x = (y ** 0.5 - 3);
+// console.log(x);
+
+// let hours = parseInt(prompt("Enter your worked hours: "));
+// let rate_per_h = parseInt(prompt("Enter rate per hour: "));
+// console.log("You earned :", hours * rate_per_h);
+
+// let firstName = "Asabeneh";
+// let lastName = "Yetayeh";
+
+// firstName.length > lastName.length
+//  ? console.log(`Your first name, Asabeneh is longer than your family name, Yetayeh`)
+//  : console.log(`false`);
+
+// let year = parseInt(prompt("enter year :"));
+// let now = new Date().getFullYear();
+// let age = now - year;
+// console.log(
+//   `You have been living ${age * 365 * 24 * 60 * 60} seconds for years`
+// );
