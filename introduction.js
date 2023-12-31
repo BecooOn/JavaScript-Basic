@@ -335,3 +335,116 @@ And we can write many lines for comment*/
 // console.log(
 //   `You have been living ${age * 365 * 24 * 60 * 60} seconds for years`
 // );
+// const d = new Date();
+
+// let mins = d.getMinutes();
+// mins < 10 ? "0" + mins.toString() : mins;
+// let hrs = d.getHours();
+// hrs < 10 ? "0" + hrs.toString() : hrs;
+
+// let year = d.getFullYear();
+// let month = d.getMonth();
+// let date = d.getDate();
+
+// console.log(`${year}-${month + 1}-${date}  ${hrs}:${mins}`);
+// let num = 0;
+// if (num >= 0) {
+//   console.log(`${num} is a positive number`);
+// } else {
+//   console.log(`${num} is a negative number`);
+// }
+
+// Switch More Examples
+// let dayUserInput = prompt("What day is today ?");
+// let day = dayUserInput.toLowerCase();
+
+// switch (day) {
+//   case "monday":
+//     console.log("Today is Monday");
+//     break;
+//   case "tuesday":
+//     console.log("Today is Tuesday");
+//     break;
+//   case "wednesday":
+//     console.log("Today is Wednesday");
+//     break;
+//   case "thursday":
+//     console.log("Today is Thursday");
+//     break;
+//   case "friday":
+//     console.log("Today is Friday");
+//     break;
+//   case "saturday":
+//     console.log("Today is Saturday");
+//     break;
+//   case "sunday":
+//     console.log("Today is Sunday");
+//     break;
+//   default:
+//     console.log("It is not a week day.");
+// }
+
+// let num = prompt("Enter number");
+// switch (true) {
+//   case num > 0:
+//     console.log("Number is positive");
+//     break;
+//   case num == 0:
+//     console.log("Numbers is zero");
+//     break;
+//   case num < 0:
+//     console.log("Number is negative");
+//     break;
+//   default:
+//     console.log("Entered value was not a number");
+// }
+
+// let isRaining = true;
+// isRaining
+//   ? console.log("You need a rain coat.")
+//   : console.log("No need for a rain coat.");
+// isRaining = false
+//   ? console.log("You need a rain coat.")
+//   : console.log("No need for a rain coat.");
+
+//Exercises: Level 1
+//1
+// let age = prompt("Enter your age: ");
+// if (age >= 18) {
+//     console.log('You are old enough to drive');
+// } else {
+//     console.log(`You are left with ${18 - age} years to drive.`);
+// }
+
+//2
+// let my_age = prompt("Enter your age: ");
+// let your_age = prompt("Enter your friend age: ");
+// if (my_age > your_age){
+//     console.log(`I'm ${my_age - your_age} years older than you.`);
+// } else {
+//     console.log(`You are ${your_age - my_age} years older than me.`);
+// }
+
+//3
+// let a = 4;
+// let b = 3;
+// if (a > b) {
+//   console.log(`a is greater than b`);
+// } else {
+//   console.log(`a is less than b`);
+// }
+
+//4
+
+// let num = parseInt(prompt("Enter a number: "));
+// if (num % 2 == 0) {
+//   console.log(`${num} is a even number`);
+// } else {
+//   console.log(`${num} is a odd number`);
+// }
+
+// let number = parseInt(prompt("Enter a number: "));
+// number % 2 == 0 ? console.log(`${number} is an even number`): console.log(`${number} is an odd number`);
+
+//Exercises: Level 2
+
