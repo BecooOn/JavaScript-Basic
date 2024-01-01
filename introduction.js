@@ -416,13 +416,13 @@ And we can write many lines for comment*/
 //     console.log(`You are left with ${18 - age} years to drive.`);
 // }
 
-//2
-// let my_age = prompt("Enter your age: ");
-// let your_age = prompt("Enter your friend age: ");
-// if (my_age > your_age){
-//     console.log(`I'm ${my_age - your_age} years older than you.`);
+// 2;
+// let my_age = parseInt(prompt("Enter your age: "));
+// let your_age = parseInt(prompt("Enter your friend age: "));
+// if (my_age > your_age) {
+//   console.log(`I'm ${my_age - your_age} years older than you.`);
 // } else {
-//     console.log(`You are ${your_age - my_age} years older than me.`);
+//   console.log(`You are ${your_age - my_age} years older than me.`);
 // }
 
 //3
@@ -447,9 +447,10 @@ And we can write many lines for comment*/
 
 //Exercises: Level 2
 //1
+//alert("Enter the grade between 0 and 100");
 // let grade = parseInt(prompt("Enter your grade: "));
 // switch (true) {
-//   case grade >= 80:
+//   case grade >= 80 && grade  :
 //     console.log("Your grade is A");
 //     break;
 //   case grade >= 70:
@@ -538,7 +539,6 @@ And we can write many lines for comment*/
 // let numDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
 // let userInput1 = prompt("Enter the month: ");
-// let year = parseInt(prompt("Enter the year: "));
 // let userInput = userInput1.toLowerCase();
 // let index = month.indexOf(userInput);
 // console.log(`${userInput} has ${numDays[index]} days.`);
@@ -552,8 +552,77 @@ And we can write many lines for comment*/
 // let modifiedInput = capitalizeFirstLetter(userInput);
 // console.log(modifiedInput);
 
-// if ((year % 4 == 0 && year % 100 == 0) || year % 400 == 0) {
+
+// let year = parseInt(prompt("Enter the year: "));
+// if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
 //   console.log(`${year} is a leap year.`);
 // } else {
 //   console.log(`${year} is not a leap year`);
+// }
+
+//which season
+// let month = prompt('enter a month');
+// switch (month) {
+//     case 'january':
+//         console.log(the season is winter);
+//         break;
+//     case 'february':
+//         console.log(the season is winter);
+//         break;
+//     case 'march':
+//         console.log(the season is spring);
+//         break;
+//     case 'april':
+//         console.log(the season is spring);
+//         break;
+//     case 'may':
+//         console.log(the season is spring);
+//         break;
+//     case 'june':
+//         console.log(the season is summer);
+//         break;
+//     case 'july':
+//         console.log(the season is summer);
+//         break;
+//     case 'august':
+//         console.log(the season is summer);
+//         break;
+//     case 'september':
+//         console.log(the season is autumn);
+//         break;
+//     case 'october':
+//         console.log(the season is autumn);
+//         break;
+//     case 'november':
+//         console.log(the season is autumn);
+//         break;
+//     case 'december':
+//         console.log(the season is winter);
+//         break;
+//     default:
+//         console.log('invalid month')
+// }console.log('sum');
+// }
+
+//second method
+// let month = {
+//   spring: ["march", "april", "may"],
+//   summer: ["june", "july", "august"],
+//   autumn: ["september", "october", "november"],
+//   winter: ["december", "january", "february"],
+// };
+
+// let userInput1 = prompt("Enter the month: "); // bu şekilde de yapılabilirdi "prompt("Enter the month: ").toLowerCase();" ve diğer blok kod iptal edilebilirdi.
+// let userInput = userInput1.toLowerCase();
+
+// if (month.spring.includes(userInput)) {
+//   console.log("it is spring");
+// } else if (month.summer.includes(userInput)) {
+//   console.log("it is summer");
+// } else if (month.autumn.includes(userInput)) {
+//   console.log("it is autumn");
+// } else if (month.winter.includes(userInput)) {
+//   console.log("it is winter");
+// } else {
+//   console.log("Not found in any season");
 // }
