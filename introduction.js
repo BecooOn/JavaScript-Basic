@@ -435,7 +435,6 @@ And we can write many lines for comment*/
 // }
 
 //4
-
 // let num = parseInt(prompt("Enter a number: "));
 // if (num % 2 == 0) {
 //   console.log(`${num} is a even number`);
@@ -447,4 +446,114 @@ And we can write many lines for comment*/
 // number % 2 == 0 ? console.log(`${number} is an even number`): console.log(`${number} is an odd number`);
 
 //Exercises: Level 2
+//1
+// let grade = parseInt(prompt("Enter your grade: "));
+// switch (true) {
+//   case grade >= 80:
+//     console.log("Your grade is A");
+//     break;
+//   case grade >= 70:
+//     console.log("Your grade is B");
+//     break;
+//   case grade >= 60:
+//     console.log("Your grade is C");
+//     break;
+//   case grade >= 50:
+//     console.log("Your grade is D");
+//     break;
+//   default:
+//     console.log("Your grade is F");
+// }
 
+//2
+// alert("Seasons are Autumn,Winter,Spring,Summer");
+
+// let season1 = prompt("Enter the season: ");
+// let season = season1.toLowerCase();
+
+// if (season == "autumn") {
+//   console.log("September, October or November, these months are in Autumn.");
+// } else if (season == "winter") {
+//   console.log("December, January or February, these months are in Winter.");
+// } else if (season == "spring") {
+//   console.log("March, April or May, these month are in Spring");
+// } else if (season == "summer") {
+//   console.log("June, July or August, these are are in Summer");
+// } else {
+//   console.log("You entered an invalid value!");
+// }
+
+// alert("Seasons are Autumn,Winter,Spring,Summer");
+
+// let seasonUserInput = prompt("What is the season ?");
+// let season = seasonUserInput.toLowerCase();
+
+// switch (season) {
+//   case "autumn":
+//     console.log("September, October or November, the season is Autumn.");
+//     break;
+//   case "winter":
+//     console.log("December, January or February, the season is Winter");
+//     break;
+//   case "spring":
+//     console.log("March, April or May, the season is Spring");
+//     break;
+//   case "summer":
+//     console.log("June, July or August, the season is Summer");
+//     break;
+//   default:
+//     console.log("It is not a season.");
+// }
+
+//Check if a day is weekend day or a working day. Your script will take day as an input.
+// let week_days = ["monday", "tuesday", "wednesday", "thursday", "friday"];
+// let weekend = ["saturday", "sunday"];
+
+// let userInput1 = prompt("Enter the day: ");
+// let userInput = userInput1.toLowerCase();
+// if (week_days.includes(userInput)) {
+//   console.log(`${userInput} is a working day.`);
+// } else if (weekend.includes(userInput)) {
+//   console.log(`${userInput} is a weekend.`);
+// } else {
+//   console.log("Invalid value!");
+// }
+
+//Write a program which tells the number of days in a month, now consider leap year.
+// let month = [
+//   "january",
+//   "february",
+//   "march",
+//   "april",
+//   "may",
+//   "june",
+//   "july",
+//   "august",
+//   "september",
+//   "october",
+//   "november",
+//   "december",
+// ];
+
+// let numDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+// let userInput1 = prompt("Enter the month: ");
+// let year = parseInt(prompt("Enter the year: "));
+// let userInput = userInput1.toLowerCase();
+// let index = month.indexOf(userInput);
+// console.log(`${userInput} has ${numDays[index]} days.`);
+
+// İlk harfi büyük yazdırmak
+// function capitalizeFirstLetter(str) {
+//   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+// }
+
+// let userInput = prompt("Bir kelime veya cümle girin: ");
+// let modifiedInput = capitalizeFirstLetter(userInput);
+// console.log(modifiedInput);
+
+// if ((year % 4 == 0 && year % 100 == 0) || year % 400 == 0) {
+//   console.log(`${year} is a leap year.`);
+// } else {
+//   console.log(`${year} is not a leap year`);
+// }
