@@ -552,7 +552,6 @@ And we can write many lines for comment*/
 // let modifiedInput = capitalizeFirstLetter(userInput);
 // console.log(modifiedInput);
 
-
 // let year = parseInt(prompt("Enter the year: "));
 // if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
 //   console.log(`${year} is a leap year.`);
@@ -626,3 +625,151 @@ And we can write many lines for comment*/
 // } else {
 //   console.log("Not found in any season");
 // }
+
+// const arr = Array(5);
+// console.log(arr);
+
+// const arr1 = Array(5, "a");
+// console.log(arr1);
+
+// let arr2 = Array(2).fill(3);
+// console.log(arr2);
+
+// const arr3 = [];
+// console.log(arr3);
+
+// const arr4 = [2];
+// console.log(arr4);
+
+// const fruits = ["banana", "orange", "mango", "lemon"]; // array of fruits
+// const vegetables = ["Tomato", "Potato", "Cabbage", "Onion", "Carrot"]; // array of vegetables
+// const fruitsAndVegetables = fruits.concat(vegetables);
+// console.log(fruitsAndVegetables);
+
+// const numbers = [1, 2, 3, 4, 5, 3, 1, 2]
+
+// console.log(numbers.lastIndexOf(2)) // 7
+// console.log(numbers.lastIndexOf(0)) // -1
+// console.log(numbers.lastIndexOf(1)) //  6
+// console.log(numbers.lastIndexOf(4)) //  3
+// console.log(numbers.lastIndexOf(6)) // -1
+
+// const numbers = [1, 2, 3, 4, 5];
+// console.log(numbers.toString()); // 1,2,3,4,5
+// console.log(typeof numbers.toString()); // 1,2,3,4,5
+
+// const names = ["Asabeneh", "Mathias", "Elias", "Brook"];
+// console.log(names.toString()); // Asabeneh,Mathias,Elias,Brook
+// let aa = names.toString();
+// console.log(aa);
+
+//Exercise: Level 1
+//1.Declare an empty array;
+// const arr = []; // const arr = Array();
+// console.log(arr);
+
+//2.Declare an array with more than 5 number of elements
+// const arr = Array(10);
+// console.log(arr);
+
+//3.Find the length of your array
+
+//4.Get the first item, the middle item and the last item of the array
+// const countries = [
+//   "Albania",
+//   "Bolivia",
+//   "Canada",
+//   "Denmark",
+//   "Ethiopia",
+//   "Finland",
+//   "Germany",
+//   "Hungary",
+//   "Ireland",
+//   "Japan",
+//   "Kenya",
+// ];
+// console.log(
+//   "begin: ",
+//   countries[0],
+//   "middle: ",
+//   countries[parseInt(countries.length / 2)],
+//   "end: ",
+//   countries[countries.length - 1]
+// );
+
+//6.Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
+// const itCompanies = [
+//   "Facebook",
+//   "Google",
+//   "Microsoft",
+//   "Apple",
+//   "IBM",
+//   "Oracle",
+//   "Amazon",
+// ];
+// console.log(itCompanies);
+
+//7.console.log(itCompanies);
+
+//8.console.log(itCompanies.length);
+
+//9.Print the first company, middle and last company
+// console.log(
+//   "begin:",
+//   itCompanies[0],
+//   " middle:",
+//   itCompanies[parseInt(itCompanies.length / 2)],
+//   " end:",
+//   itCompanies[itCompanies.length - 1]
+// );
+
+//10.Print out each company
+// for (let i = 0; i < itCompanies.length; i++) {
+//   console.log(itCompanies[i]);
+// }
+
+//11.Change each company name to uppercase one by one and print them out
+// for (let i = 0; i < itCompanies.length; i++) {
+//     console.log(itCompanies[i].toUpperCase());
+//   }
+
+//12.Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+// let Companies = itCompanies.toString();
+// let text = `${Companies} are big IT companies`;
+// console.log(text);
+
+//13.Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
+// itCompanies.includes('Google') === true
+//     ? console.log('Google')
+//     : console.log('Company is not found')
+
+//14.Filter out companies which have more than one 'o' without the filter method
+//?
+
+//15.Sort the array using sort() method
+// console.log(itCompanies.sort());
+
+//16.Reverse the array using reverse() method
+// console.log(itCompanies.reverse());
+
+//17.Slice out the first 3 companies from the array
+// console.log(itCompanies.slice(0,3));
+
+//18.Slice out the last 3 companies from the array
+// console.log(itCompanies.slice(-3));
+
+//19.Slice out the middle IT company or companies from the array
+// console.log(itCompanies[parseInt(itCompanies.length/2)]);
+
+//20.Remove the first IT company from the array
+// console.log(itCompanies.shift());
+
+//21.Remove the middle IT company or companies from the array
+// console.log(itCompanies.shift(itCompanies.length / 2));
+
+//22.Remove the last IT company from the array
+// console.log(itCompanies.pop());
+
+//23.Remove all IT companies
+// console.log(itCompanies.splice());
+
