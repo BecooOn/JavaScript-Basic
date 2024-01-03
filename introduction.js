@@ -773,3 +773,235 @@ And we can write many lines for comment*/
 //23.Remove all IT companies
 // console.log(itCompanies.splice());
 
+// let number = parseInt(
+//   prompt("Enter the number for the multiplication table: ")
+// );
+// for (let i = 1; i <= number; i++) {
+//   console.log();
+//   for (let j = 1; j <= number; j++) {console.log(`${i} * ${j} = ${i * j}`);}
+//   console.log();
+// }
+
+// const webTechs = [
+//   "HTML",
+//   "CSS",
+//   "JavaScript",
+//   "React",
+//   "Redux",
+//   "Node",
+//   "MongoDB",
+// ];
+
+// for (const tech of webTechs) {
+//   console.log(tech.toUpperCase());
+//   console.log(typeof tech);
+// }
+
+// const numbers = [1, 2, 3, 4, 5];
+// let sum = [];
+// for (const num of numbers) {
+//   sum.push(num);
+//   console.log(typeof num);
+// }
+// console.log(sum);
+
+// const countries = ["Finland", "Sweden", "Norway", "Denmark", "Iceland"];
+// const newArr = [];
+// for (const country of countries) {
+//   newArr.push(country.toUpperCase());
+
+// }console.log(newArr);
+
+// for (let i = 0; i <= 5; i++) {
+//   if (i == 3) {
+//     continue;
+//   }
+//   console.log(i);
+// }
+
+//Exercises:Day 6
+//Exercises: Level 1
+//1.Iterate 0 to 10 using for loop, do the same using while and do while loop
+// for(let i = 0; i <= 10 ; i++){
+//     console.log(i);
+// }
+
+// let i = 0;
+// while (i <= 10) {
+//   console.log(i);
+//   i++;
+// }
+
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 10);
+
+//2.Iterate 10 to 0 using for loop, do the same using while and do while loop
+
+// for (let i = 10; i >= 0; i--) {
+//   console.log(i);
+// }
+
+// let i = 10;
+// while (i >= 0) {
+//   console.log(i);
+//   i--;
+// }
+// let i = 10;
+// do {
+//   console.log(i--);
+// } while (i >= 0);
+
+// let n = parseInt(prompt("enter a number: "))
+// for(let i = 0; i<=n; i++){
+//     console.log(i);
+// }
+
+//4.Write a loop that makes the following pattern using console.log():
+
+// let i = 1;
+// let sekil = "";
+// while (i <= 7) {
+//   sekil += "#";
+//   console.log(sekil);
+//   i++;
+// }
+
+//5.Use loop to print the following pattern:
+// for (let i = 0; i < 11; i++) {
+//   console.log(`${i} x ${i} = ${i * i}`);
+// }
+
+//6.Using loop print the following pattern
+// console.log(`i  i^2  i^3`);
+// for (let i = 0; i < 11; i++) {
+//   console.log(`${i}  ${i ** 2}    ${i ** 3}`);
+// }
+
+//7.Use for loop to iterate from 0 to 100 and print only even numbers
+// let arr = [];
+// for(let i = 0; i <= 100; i++){
+//     if(i%2 == 0){
+//         arr.push(i);
+//     }
+// }
+// console.log(arr);
+
+// for (let i = 0; i <= 100; i += 2) {
+//   arr.push(i);
+// }
+// console.log(arr);
+
+//8.Use for loop to iterate from 0 to 100 and print only odd numbers
+// let arr = [];
+// for (let i = 1; i <= 100; i += 2) {
+//   arr.push(i);
+// }
+// console.log(arr);
+
+//9.Use for loop to iterate from 0 to 100 and print only prime numbers
+
+// for (let i = 2; i <= 100; i++) {
+//   let isPrime = true;
+
+//   for (let j = 2; j < i; j++) {
+//     if (i % j === 0) {
+//       isPrime = false;
+//       break;
+//     }
+//   }
+
+//   if (isPrime) {
+//     console.log(i);
+//   }
+// }
+
+//10.Use for loop to iterate from 0 to 100 and print the sum of all numbers.
+// let sum = 0;
+// for(let i = 0; i<=100; i++){
+//     sum += i;
+// }
+// console.log("The sum of all numbers from 0 to 100 is", sum);
+
+// let sum = 0;
+// for(let i = 0; i < 101; i++) {
+//    sum += i;
+// } console.log("Sum of 0-100: ", sum);
+
+//11.Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+
+// let sumEven = 0;
+// let sumOdd = 0;
+// for (let i = 0; i < 101; i++) {
+//   if (i % 2 == 0) {
+//     sumEven += i;
+//   } else {
+//     sumOdd += i;
+//   }
+// }
+// console.log(sumEven, sumOdd);
+
+//12.Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds. Print sum of evens and sum of odds as array
+// let sumEven = 0;
+// let sumOdd = 0;
+// for (let i = 0; i < 101; i++) {
+//   if (i % 2 == 0) {
+//     sumEven += i;
+//   } else {
+//     sumOdd += i;
+//   }
+// }
+// console.log([sumEven, sumOdd]);
+
+//13.Develop a small script which generate array of 5 random numbers
+// let randomNums = [];
+// for (let i = 0; i < 5; i++) {
+//   randomNums.push(parseInt(Math.random()*100));
+// }
+// console.log(randomNums);
+
+//14.Develop a small script which generate array of 5 random numbers and the numbers must be unique
+// let randomNums = [];
+// let a = 0;
+// for (let i = 0; i < 5; i++) {
+//   a = parseInt(Math.random() * 100);
+//   if (!randomNums.includes(a)) {
+//     randomNums.push(a);
+//   }
+// }
+// console.log(randomNums);
+
+//15.Develop a small script which generate a six characters random id:
+//Zeynep hocam
+// let alphabets = 'abcdefghijklmnopqrstuvwxyz';
+// let randoms = [];
+// for(let i = 0; i < 6; i++) {
+//    if(i%2 == 0) randoms.push(i);
+//    else randoms.push(alphabets[parseInt(Math.random() * 25)])
+// }
+// console.log(randoms.join(''));
+
+//Seda hocam
+// let alphabets = 'abcdefghijklmnopqrstuvwxyz0123456789';
+// let randoms = [];
+// for(let i = 0; i < 6; i++) {
+// randoms.push(alphabets[parseInt(Math.random() * 37)])
+// }
+// console.log(randoms.join(''));
+
+// const chars = "0123456789abcdefghiklmnopqrstuvwxyz";
+//     let id = '';
+
+//     while (id.length < 6) {
+//         let index = Math.floor(Math.random() * chars.length);
+//         let charsIn = chars[index]
+//             id += charsIn
+//     }
+//     console.log(id);
+
+
+//Akmaral hocam
+// const randomId = Math.random().toString(36).substr(2, 6);
+// console.log(randomId);
+
