@@ -973,7 +973,7 @@ And we can write many lines for comment*/
 // console.log(randomNums);
 
 //15.Develop a small script which generate a six characters random id:
-//Zeynep hocam
+//15.1
 // let alphabets = 'abcdefghijklmnopqrstuvwxyz';
 // let randoms = [];
 // for(let i = 0; i < 6; i++) {
@@ -982,7 +982,7 @@ And we can write many lines for comment*/
 // }
 // console.log(randoms.join(''));
 
-//Seda hocam
+//15.2
 // let alphabets = 'abcdefghijklmnopqrstuvwxyz0123456789';
 // let randoms = [];
 // for(let i = 0; i < 6; i++) {
@@ -990,6 +990,7 @@ And we can write many lines for comment*/
 // }
 // console.log(randoms.join(''));
 
+//15.3
 // const chars = "0123456789abcdefghiklmnopqrstuvwxyz";
 //     let id = '';
 
@@ -1000,8 +1001,20 @@ And we can write many lines for comment*/
 //     }
 //     console.log(id);
 
-
-//Akmaral hocam
+//15.4
 // const randomId = Math.random().toString(36).substr(2, 6);
 // console.log(randomId);
 
+//9.Use for loop to iterate from 0 to 100 and print only prime numbers
+// let a = true;
+// let num = parseInt(prompt("enter a number: "));
+// for (let i = 2; i <= Math.ceil(num ** 0.5); i++) {
+//   if (num % i == 0) {
+//     console.log(`${num} is not a prime number`);
+//     a = false;
+//     break;
+//   }
+// }
+// if (a != false) {
+//   console.log(`${num} is a prime number`);
+// }
