@@ -1009,12 +1009,14 @@ And we can write many lines for comment*/
 // let a = true;
 // let num = parseInt(prompt("enter a number: "));
 // for (let i = 2; i <= Math.ceil(num ** 0.5); i++) {
-//   if (num % i == 0) {
+//   if (num % i == 0 && num != 2) {
 //     console.log(`${num} is not a prime number`);
 //     a = false;
 //     break;
 //   }
 // }
-// if (a != false) {
+// if (a != false && num != 1 && num != 0) {
 //   console.log(`${num} is a prime number`);
+// } else if (num == 1 || num == 0) {
+//   console.log(`${num} is not a prime number`);
 // }
