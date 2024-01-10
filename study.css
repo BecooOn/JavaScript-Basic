@@ -1,0 +1,58 @@
+body {
+  background-image: url("./js_solution_dark.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.rounded-corners {
+  border-spacing: 0;
+  border-collapse: separate;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.tbody {
+  border: 2px solid rgb(192, 99, 99);
+  border-collapse: collapse;
+  border-radius: 20%;
+}
+
+button {
+  width: 75px;
+  height: 75px;
+  opacity: 0.5;
+  border-radius: 20%;
+}
+
+.dis {
+  display: flex;
+}
+
+.container {
+  border: 1px solid green;
+  /*background-color: aqua;*/
+  width: 49%;
+  height: 750px;
+  display: flex;
+  align-items: center;
+}
+
+.container1 {
+  border: 1px solid black;
+  /*background-color: red;*/
+  width: 49%;
+  height: 750px;
+  display: flex;
+}
+
+.small {
+  width: 2%;
+  height: 750px;
+  border: 1px solid red;
+}
+
+.cevap {
+  display: none;
+}

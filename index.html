@@ -3,11 +3,13 @@
   <head>
     <title>30DaysOfScript:Inline Script</title>
     <link rel="shortcut icon" href="./js-file.png" type="image/x-icon" />
+    <link rel="stylesheet" href="study.css" />
     <script>
       console.log("This is my first external script");
     </script>
     <script src="introduction.js"></script>
-    <style>
+
+    <!-- <style>
       table,
       th,
       td {
@@ -38,134 +40,260 @@
       .dis {
         display: flex;
       }
-    </style>
+    </style> -->
   </head>
   <body>
+    <!-- <header>
+      <div>
+        <h1></h1>
+      </div>
+    </header> -->
     <h1><strong>30 Days Of JavaScript!</strong></h1>
     <button onclick="alert('Welcome to 30DaysOfJavaScript!')">
       Click Me For More Information</button
     ><br /><br /><br />
     <div class="dis">
       <div class="container">
-        <table align="center" ; width="300px" ; height="225px">
+        <table
+          class="rounded-corners"
+          ;
+          align="center"
+          ;
+          width="500px"
+          ;
+          height="400px"
+          ;
+        >
           <tr>
             <th colspan="6">
-              <abbr title="All Solutions"><button>SOLUTIONS</button></abbr>
+              <h1>SOLUTIONS</h1>
             </th>
           </tr>
-          <tbody align="center">
+          <tbody class="tbody" ; align="center" ;>
             <tr>
               <td>
-                <abbr title="1st day"> <button>1</button> </abbr>
+                <abbr title="1st day">
+                  <button onclick="cevabiGoster(1)">1</button>
+                </abbr>
               </td>
               <!-- <abbr title=""></abbr> ilgili yerin üzerinde açıklama çıkartır; çıkacak açıklama title içinde yazılır-->
               <td>
-                <abbr title="2nd day"> <button>2</button> </abbr>
+                <abbr title="2nd day">
+                  <button onclick="cevabiGoster(2)">2</button>
+                </abbr>
               </td>
               <td>
-                <abbr title="3rd day"> <button>3</button> </abbr>
+                <abbr title="3rd day">
+                  <button onclick="cevabiGoster(3)">3</button>
+                </abbr>
               </td>
               <td>
-                <abbr title="4th day"> <button>4</button> </abbr>
+                <abbr title="4th day">
+                  <button onclick="cevabiGoster(4)">4</button>
+                </abbr>
               </td>
               <td>
-                <abbr title="5th day"> <button>5</button> </abbr>
+                <abbr title="5th day">
+                  <button onclick="cevabiGoster(5)">5</button>
+                </abbr>
               </td>
               <td>
-                <abbr title="6th day"> <button>6</button> </abbr>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <abbr title="7th day"> <button>7</button> </abbr>
-              </td>
-              <td>
-                <abbr title="8th day"><button>8</button></abbr>
-              </td>
-              <td>
-                <abbr title="9th day"><button>9</button></abbr>
-              </td>
-              <td>
-                <abbr title="10th day"><button>10</button></abbr>
-              </td>
-              <td>
-                <abbr title="11th day"><button>11</button></abbr>
-              </td>
-              <td>
-                <abbr title="12th day"><button>12</button></abbr>
+                <abbr title="6th day">
+                  <button onclick="cevabiGoster(6)">6</button>
+                </abbr>
               </td>
             </tr>
             <tr>
               <td>
-                <abbr title="13th day"> <button>13</button> </abbr>
+                <abbr title="7th day">
+                  <button onclick="cevabiGoster(7)">7</button>
+                </abbr>
               </td>
               <td>
-                <abbr title="14th day"><button>14</button></abbr>
+                <abbr title="8th day"
+                  ><button onclick="cevabiGoster(8)">8</button></abbr
+                >
               </td>
               <td>
-                <abbr title="15th day"><button>15</button></abbr>
+                <abbr title="9th day"
+                  ><button onclick="cevabiGoster(9)">9</button></abbr
+                >
               </td>
               <td>
-                <abbr title="16th day"><button>16</button></abbr>
+                <abbr title="10th day"
+                  ><button onclick="cevabiGoster(10)">10</button></abbr
+                >
               </td>
               <td>
-                <abbr title="17th day"><button>17</button></abbr>
+                <abbr title="11th day"
+                  ><button onclick="cevabiGoster(11)">11</button></abbr
+                >
               </td>
               <td>
-                <abbr title="18th day"><button>18</button></abbr>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <abbr title="19th day"> <button>19</button> </abbr>
-              </td>
-              <td>
-                <abbr title="20th day"><button>20</button></abbr>
-              </td>
-              <td>
-                <abbr title="21st day"><button>21</button></abbr>
-              </td>
-              <td>
-                <abbr title="22nd day"><button>22</button></abbr>
-              </td>
-              <td>
-                <abbr title="23rd day"><button>23</button></abbr>
-              </td>
-              <td>
-                <abbr title="24th day"><button>24</button></abbr>
+                <abbr title="12th day"
+                  ><button onclick="cevabiGoster(12)">12</button></abbr
+                >
               </td>
             </tr>
             <tr>
               <td>
-                <abbr title="25th day"> <button>25</button> </abbr>
+                <abbr title="13th day">
+                  <button onclick="cevabiGoster(13)">13</button>
+                </abbr>
               </td>
               <td>
-                <abbr title="26th day"><button>26</button></abbr>
+                <abbr title="14th day"
+                  ><button onclick="cevabiGoster(14)">14</button></abbr
+                >
               </td>
               <td>
-                <abbr title="27th day"><button>27</button></abbr>
+                <abbr title="15th day"
+                  ><button onclick="cevabiGoster(15)">15</button></abbr
+                >
               </td>
               <td>
-                <abbr title="28th day"><button>28</button></abbr>
+                <abbr title="16th day"
+                  ><button onclick="cevabiGoster(16)">16</button></abbr
+                >
               </td>
               <td>
-                <abbr title="29th day"><button>29</button></abbr>
+                <abbr title="17th day"
+                  ><button onclick="cevabiGoster(17)">17</button></abbr
+                >
               </td>
               <td>
-                <abbr title="30th day"><button>30</button></abbr>
+                <abbr title="18th day"
+                  ><button onclick="cevabiGoster(18)">18</button></abbr
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <abbr title="19th day">
+                  <button onclick="cevabiGoster(19)">19</button>
+                </abbr>
+              </td>
+              <td>
+                <abbr title="20th day"
+                  ><button onclick="cevabiGoster(20)">20</button></abbr
+                >
+              </td>
+              <td>
+                <abbr title="21st day"
+                  ><button onclick="cevabiGoster(21)">21</button></abbr
+                >
+              </td>
+              <td>
+                <abbr title="22nd day"
+                  ><button onclick="cevabiGoster(22)">22</button></abbr
+                >
+              </td>
+              <td>
+                <abbr title="23rd day"
+                  ><button onclick="cevabiGoster(23)">23</button></abbr
+                >
+              </td>
+              <td>
+                <abbr title="24th day"
+                  ><button onclick="cevabiGoster(24)">24</button></abbr
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <abbr title="25th day">
+                  <button onclick="cevabiGoster(25)">25</button>
+                </abbr>
+              </td>
+              <td>
+                <abbr title="26th day"
+                  ><button onclick="cevabiGoster(26)">26</button></abbr
+                >
+              </td>
+              <td>
+                <abbr title="27th day"
+                  ><button onclick="cevabiGoster(27)">27</button></abbr
+                >
+              </td>
+              <td>
+                <abbr title="28th day"
+                  ><button onclick="cevabiGoster(28)">28</button></abbr
+                >
+              </td>
+              <td>
+                <abbr title="29th day"
+                  ><button onclick="cevabiGoster(29)">29</button></abbr
+                >
+              </td>
+              <td>
+                <abbr title="30th day"
+                  ><button onclick="cevabiGoster(30)">30</button></abbr
+                >
               </td>
             </tr>
           </tbody>
         </table>
       </div>
-      <div class="container1"><p>Burası çözüm alanı</p></div>
-      <script>
+      <div class="small"></div>
+      <!--2 div arası boşluk için-->
+      <div class="container1">
+        <p><strong>Burası çözüm alanı</strong></p>
+        <div>
+          <div class="cevap" id="cevap1">Cevap 1</div>
+          <div class="cevap" id="cevap2">Cevap 2</div>
+          <div class="cevap" id="cevap3">Cevap 3</div>
+          <div class="cevap" id="cevap4">Cevap 4</div>
+          <div class="cevap" id="cevap5">Cevap 5</div>
+          <div class="cevap" id="cevap6">Cevap 6</div>
+          <div class="cevap" id="cevap7">Cevap 7</div>
+          <div class="cevap" id="cevap8">Cevap 8</div>
+          <div class="cevap" id="cevap9">Cevap 9</div>
+          <div class="cevap" id="cevap10">Cevap 10</div>
+          <div class="cevap" id="cevap11">Cevap 11</div>
+          <div class="cevap" id="cevap12">Cevap 12</div>
+          <div class="cevap" id="cevap13">Cevap 13</div>
+          <div class="cevap" id="cevap14">Cevap 14</div>
+          <div class="cevap" id="cevap15">Cevap 15</div>
+          <div class="cevap" id="cevap16">Cevap 16</div>
+          <div class="cevap" id="cevap17">Cevap 17</div>
+          <div class="cevap" id="cevap18">Cevap 18</div>
+          <div class="cevap" id="cevap19">Cevap 19</div>
+          <div class="cevap" id="cevap20">Cevap 20</div>
+          <div class="cevap" id="cevap21">Cevap 21</div>
+          <div class="cevap" id="cevap22">Cevap 22</div>
+          <div class="cevap" id="cevap23">Cevap 23</div>
+          <div class="cevap" id="cevap24">Cevap 24</div>
+          <div class="cevap" id="cevap25">Cevap 25</div>
+          <div class="cevap" id="cevap26">Cevap 26</div>
+          <div class="cevap" id="cevap27">Cevap 27</div>
+          <div class="cevap" id="cevap28">Cevap 28</div>
+          <div class="cevap" id="cevap29">Cevap 29</div>
+          <div class="cevap" id="cevap30">Cevap 30</div>
+        </div>
+      </div>
+
+      <!-- <script>
         console.log("This is my first internal script");
-      </script>
+      </script> -->
     </div>
+
+    <script>
+      function cevabiGoster(soruNo) {
+        let cevaplar = document.querySelectorAll(".cevap");
+        console.log(cevaplar);
+        [...cevaplar].map((durmaz) => {
+          durmaz.style.display = "none";
+        });
+        let secilenCevap = document.getElementById("cevap" + soruNo);
+        secilenCevap.style.display = "block";
+      }
+    </script>
     <script src="introduction.js"></script>
     <script src="helloworld.js"></script>
     <script src="function.js"></script>
     <script src="scope.js"></script>
+    <!-- <footer>
+      <div></div>
+    </footer> -->
   </body>
 </html>

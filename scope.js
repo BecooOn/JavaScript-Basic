@@ -510,3 +510,31 @@
 //   }
 // }
 // console.log(contid(user_id));
+
+
+// let user_id = prompt("Enter your id: ");
+// function signUp(user_id) {
+//     for(let i = 0; i < users.length; i++) {
+//         if(users[i]._id === user_id) {
+//             return 'User already has an account'
+//         }
+//     }
+//     const user_name = prompt('Please enter name')
+//     const user_email = prompt('Please enter your email')
+//     const user_password = prompt('Please enter password')
+//     const user_createdAt = ${new Date().getDate()}/${new Date().getMonth() + 1}/${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}
+//     const user = {}
+//     user._id = user_id
+//     user.username = user_name
+//     user.email = user_email
+//     user.password = user_password
+//     user.createdAt = user_createdAt
+//     user.isLoggedIn = true
+
+//     users.push(user)
+
+//     return 'User added successfully.'
+// }
+
+// console.log(signUp(user_id))
+// console.log(users)
