@@ -212,3 +212,95 @@
 // }
 
 // console.log(sumTwoNumbers(10, 20));
+
+//10.Declare a function name sumOfNumbers. It takes a number parameter and it adds all the numbers in that range.
+
+// const arr = [1, 2, 3, 4, 5, 6];
+
+// console.log(...arr);
+
+// const sumOfNumbers = (...args) => {
+//   let sum = 0;
+//   for (number of args) {
+//     sum += number;
+//   }
+//   return sum;
+// };
+// console.log(sumOfNumbers(arr));
+
+// const dizi = [1, 2, 3, 4, 5, 6];
+// const sumOfNumbers = (arr) => {
+//   return arr.reduce((a, b) => a + b);
+// };
+// console.log(sumOfNumbers(dizi));
+
+//11.Declare a function name sumOfOdds. It takes a number parameter and it adds all the odd numbers in that - range.
+
+// const arr = [1, 2, 3, 4, 5, 6];
+// const sumOfNumbers = (...args) => {
+//   let sum = 0;
+//   for (number of args) {
+//     if (number % 2 != 0) {
+//       sum += number;
+//     }
+//   }
+//   return sum;
+// };
+// console.log(sumOfNumbers(1, 2, 3, 4, 5, 6, 7));
+
+// const evensAndOdds = (number) => {
+//   let evencount = 0;
+//   let oddcount = 0;
+//   for (let i = 0; i <= number; i++) {
+//     if (i % 2 == 0) {
+//       evencount++;
+//     } else {
+//       oddcount++;
+//     }
+//   }
+//   console.log(`${evencount},${oddcount}`);
+// };
+// evensAndOdds(100);
+
+// const evensAndOdds = (number) => {
+//   let temp = [...Array(number).keys()];
+//   let a = temp.filter((num) => num % 2 == 0);
+//   let b = temp.filter((num) => num % 2 != 0);
+//   console.log(a.length, b.length);
+// };
+// evensAndOdds(101);
+
+//14.Writ a function which generates a randomUserIp.
+
+// const generateRandomNumber = () => {
+//   let i = 0;
+//   let ip = "";
+//   while (i < 3) {
+//     let random = Math.floor(Math.random() * 256);
+//     ip += random + ".";
+//     i++;
+//   }
+//   ip += Math.floor(Math.random() * 256);
+//   return ip;
+// };
+
+// console.log(generateRandomNumber());
+
+// function average(arr) {
+//   let sum = 0;
+//   for (const a of arr) {
+//     if (typeof a === "number") {
+//       sum += a;
+//     } else {
+//       return `${a} is not a number`;
+//     }
+//   }
+//   return sum / arr.length;
+// }
+// let dizi = [1, 2, 3, 4, 5, 6, "a", "b", { a: 12 }];
+// console.log(average(dizi));
+
+let a = 5;
+const b = 3;
+let num = 0.2+0.3;
+console.log(0.10 + 0.20);
