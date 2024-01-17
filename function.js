@@ -300,7 +300,8 @@
 // let dizi = [1, 2, 3, 4, 5, 6, "a", "b", { a: 12 }];
 // console.log(average(dizi));
 
-let a = 5;
-const b = 3;
-let num = 0.2+0.3;
-console.log(0.10 + 0.20);
+// let a = 5;
+// const b = 3;
+// let num = 0.2+0.3;
+// console.log(0.10 + 0.20);
+
