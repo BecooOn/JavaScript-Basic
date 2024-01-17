@@ -305,3 +305,18 @@
 // let num = 0.2+0.3;
 // console.log(0.10 + 0.20);
 
+//Uncaught ReferenceError: Cannot access 'a' before initialization at function.js:309:3
+// a = 8;
+// const a = 9;
+// console.log(a);
+
+const user = { fullName: "John Doe", age: 40 };
+delete user.age; // user = { fullName: "John Doe"}
+console.log(user);
+
+const arr = [1, 2, 3];
+delete arr[2];
+console.log(arr);
+
+let a = (1, 3, 7);
+console.log(a);
